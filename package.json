@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/pj-022/RIA/issues"
   },
-  "homepage": "https://github.com/pj-022/RIA#readme"
+  "homepage": "https://github.com/pj-022/RIA#readme",
+  "dependencies": {
+    "concurrently": "^7.2.1"
+  }
 }
