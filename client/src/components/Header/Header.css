@@ -1,0 +1,22 @@
+.navbar {
+  background-color: rgb(251 168 168);
+  box-shadow: 0.5px 4.866px 2px 1px rgb(0 0 0 / 15%);
+}
+
+.navbar {
+  position: fixed;
+  z-index: 9999;
+  width: 100%;
+  height: 62px;
+}
+
+.navbar-brand {
+  font-size: large;
+}
+
+/*? Only on PC Screen */
+@media only screen and (min-width: 720px) {
+  .mobile{
+    display: none;
+  }
+}

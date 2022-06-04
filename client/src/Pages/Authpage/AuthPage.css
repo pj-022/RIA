@@ -1,0 +1,44 @@
+.authpage {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    margin-bottom: 300px;
+    align-items: center;
+}
+
+.info {
+    margin-top: 70px;
+    align-self: center;
+}
+
+.line {
+    border-right: 1px solid rgb(0, 0, 0);
+}
+
+.login {
+    width: 320px;
+}
+
+.SignUp {
+    width: 320px;
+}
+
+.auth {
+
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-image: url("https://images.unsplash.com/photo-1542435503-956c469947f6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.profilePicture img {
+    height: 170px;
+    width: 240px;
+    border-radius: 5%;
+}
+
+/* @media only screen and (max-width: 720px) {} */

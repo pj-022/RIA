@@ -1,0 +1,21 @@
+.footerHead {
+    margin-bottom: -35px;
+}
+
+.socialLogo a {
+    margin-right: 1.5rem
+}
+
+@media only screen and (max-width: 720px) {
+    .socialLogo {
+        margin-right: 80px;
+    }
+
+    .socialLogo a {
+        margin-right: 0.5rem;
+    }
+}
+
+.footerbg {
+    background-color: blanchedalmond;
+}

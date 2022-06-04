@@ -1,0 +1,64 @@
+#header {
+    position: fixed;
+    width: 220px;
+    margin-left: -10px;
+    margin-top: 70px;
+  }
+  #header .pro-sidebar {
+    height: 50%;
+  }
+
+  #header .pro-sidebar {
+    width: 100%;
+    min-width: 100%;
+  }
+  #header .pro-sidebar.collapsed {
+    width: 80px;
+    min-width: 80px;
+  }
+  #header .pro-sidebar-inner {
+    background-color: rgba(255, 215, 255, 0);
+  }
+  #header .pro-sidebar-inner .pro-sidebar-layout {
+    overflow-y: hidden;
+  }
+  #header .pro-sidebar-inner .pro-sidebar-layout .logotext p {
+    font-size: 20px;
+    padding: 0 20px;
+    color: #000;
+    font-weight: bold;
+  }
+  #header .pro-sidebar-inner .pro-sidebar-layout ul {
+    padding: 0 5px;
+  }
+  #header .pro-sidebar-inner .pro-sidebar-layout ul .pro-inner-item {
+    color: #000;
+    margin: 10px 0px;
+    font-weight: bold;
+  }
+  #header .pro-sidebar-inner .pro-sidebar-layout ul .pro-inner-item .pro-icon-wrapper {
+    background-color: rgb(255, 154, 181);
+    color: #000;
+    border-radius: 3px;
+  }
+  #header .pro-sidebar-inner .pro-sidebar-layout ul .pro-inner-item .pro-icon-wrapper .pro-item-content {
+    color: #000;
+  }
+  
+  #header .pro-sidebar-inner .pro-sidebar-layout ul .active .pro-inner-item .pro-icon-wrapper {
+    background-color: rgb(253, 101, 101);
+    color: #000;
+    border-radius: 3px;
+  }
+
+  #header .logo {
+    padding: 20px;
+  }
+  
+  @media only screen and (max-width: 720px) {
+    #header {
+      position: absolute;
+      display: none;
+      
+    }
+  }
