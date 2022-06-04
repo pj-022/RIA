@@ -1,0 +1,19 @@
+{
+  "name": "ria",
+  "version": "1.0.0",
+  "description": "A blogging website for everyone",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pj-022/RIA.git"
+  },
+  "author": "Piyush Jha",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pj-022/RIA/issues"
+  },
+  "homepage": "https://github.com/pj-022/RIA#readme"
+}
