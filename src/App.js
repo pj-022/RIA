@@ -25,7 +25,7 @@ import React from "react";
 //TODO: Adding Axios for Api calls everywhere in backend
 
 
-const baseUrl = process.env.REACT_APP_BASE_URL
+const baseUrl = "https://ria-server.herokuapp.com/"
 
 const App = () => {
   return (
