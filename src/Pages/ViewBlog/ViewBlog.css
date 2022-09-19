@@ -1,0 +1,33 @@
+.vblog {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    background-color: #FFFFF0;
+}
+
+
+.blogcard {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 170px;
+    margin-bottom: 370px;
+    margin-top: 80px;
+}
+
+.blogb {
+    margin-left: 25px;
+    margin-top: 32px;
+    font-size: larger;
+    margin-right: 25px;
+}
+
+.blogb p {
+    white-space: pre-wrap;
+}
+
+.editButton{
+    display: flex;
+    flex-direction: row-reverse;
+}

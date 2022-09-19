@@ -1,0 +1,29 @@
+.blog {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-color: #FFFFF0;
+}
+
+.bloghead{
+    width: 100%;
+    margin-left: 60px;
+}
+
+.blogcard {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 170px;
+    margin-bottom: 260px;
+    margin-top: 80px;
+}
+
+.cardcss {
+    width: 100%;
+}
+
+.card-body img {
+    width: 320px;
+    height: 270px;
+}

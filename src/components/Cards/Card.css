@@ -1,0 +1,22 @@
+.card {
+    background-color: rgba(252, 213, 213, 1);
+    box-shadow: 0.5px 0.866px 2px 0px rgba(0, 0, 0, 0.3);
+    margin-right: 20px;
+}
+
+.CardBadge {
+    position: absolute;
+    top: 60px;
+    right: -45px;
+    /* left: 25px; */
+    transform: translate(-50%, -50%);
+    background-color: darksalmon;
+    color: black;
+}
+
+@media only screen and (max-width: 720px) {
+    .card {
+        width: auto;
+        height: auto;
+    }
+}
