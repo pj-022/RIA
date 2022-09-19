@@ -44,7 +44,6 @@ function Login(props) {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    console.log("BaseUrl -> " + props.baseUrl)
     const response = await fetch(`${props.baseUrl}api/auth/login/`, {
       method: "POST",
       headers: {
